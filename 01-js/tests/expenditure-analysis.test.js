@@ -15,7 +15,7 @@ describe('calculateTotalSpentByCategory', () => {
 		const result =
 			calculateTotalSpentByCategory(transactions);
 
-		expect(result).toEqual([
+		expect(result).toEqual([ 
 			{ category: 'Food', totalSpent: 10 },
 		]);
 	});
