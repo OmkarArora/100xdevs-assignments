@@ -24,26 +24,20 @@ function waitThreeSecond() {
   return wait(3 * 1000);
 }
 
-async function calculateTime() {
-  const d1 = Date.now();
-  await waitOneSecond();
-  await waitTwoSecond();
-  await waitThreeSecond();
-  const d2 = Date.now();
-  console.log("TIme took-", d2 - d1);
-}
+// async function calculateTime() {
+//   const d1 = Date.now();
+//   await waitOneSecond();
+//   await waitTwoSecond();
+//   await waitThreeSecond();
+//   const d2 = Date.now();
+//   console.log("TIme took-", d2 - d1);
+// }
 
-calculateTime();
-function wait2(t) {
+// calculateTime();
 
-}
-
-function wait3(t) {
-
-}
 
 function calculateTime(t1, t2, t3) {
 
 }
 
-module.exports = calculateTime;
+module.exports = calculateTime
