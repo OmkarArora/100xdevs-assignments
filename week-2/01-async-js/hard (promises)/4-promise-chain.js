@@ -6,22 +6,22 @@
  */
 
 function wait(n, shouldReject = false) {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => resolve(`completed in time - ${n}`), n);
-  });
+	return new Promise((resolve, reject) => {
+		setTimeout(() => resolve(`completed in time - ${n}`), n);
+	});
 }
-function wait1(t) {
+function wait1(t) {}
 
 function waitOneSecond() {
-  return wait(1 * 1000);
+	return wait(1 * 1000);
 }
 
 function waitTwoSecond() {
-  return wait(2 * 1000);
+	return wait(2 * 1000);
 }
 
 function waitThreeSecond() {
-  return wait(3 * 1000);
+	return wait(3 * 1000);
 }
 
 // async function calculateTime() {
@@ -35,9 +35,6 @@ function waitThreeSecond() {
 
 // calculateTime();
 
+function calculateTime(t1, t2, t3) {}
 
-function calculateTime(t1, t2, t3) {
-
-}
-
-module.exports = calculateTime
+module.exports = calculateTime;
